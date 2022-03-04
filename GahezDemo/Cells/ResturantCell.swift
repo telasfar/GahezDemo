@@ -13,9 +13,10 @@ class ResturantCell:UITableViewCell{
     var resturant:ResturantModel?{
         didSet{
             resturantImageView.loadImage(urlString:resturant?.image ?? "")
+            let dist = String(format: "%.2f", resturant?.distance ?? 0.0)
             mainStackView.keyValueTupleArr = [
-                ("Name","\(resturant?.name ?? "") "),
-                ("Rating","\(resturant?.rating ?? 0)")]
+                ("Name",resturant?.name ?? ""),
+                ("Distance","\(dist) Km")]
         }
     }
 
