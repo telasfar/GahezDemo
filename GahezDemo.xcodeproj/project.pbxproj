@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E125D0427D0056100A6EED2 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D0227D0056000A6EED2 /* RoundedShadowView.swift */; };
+		1E125D0527D0056100A6EED2 /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D0327D0056000A6EED2 /* CachedImageView.swift */; };
+		1E125D0927D0058200A6EED2 /* ExtenstionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D0727D0058100A6EED2 /* ExtenstionUIView.swift */; };
+		1E125D0A27D0058200A6EED2 /* ExtensionUIViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D0827D0058200A6EED2 /* ExtensionUIViewControllers.swift */; };
+		1E125D0D27D0119E00A6EED2 /* TanibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D0B27D0119D00A6EED2 /* TanibleView.swift */; };
+		1E125D0E27D0119E00A6EED2 /* TanibleViewDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D0C27D0119E00A6EED2 /* TanibleViewDirection.swift */; };
+		1E125D1027D0132000A6EED2 /* DiscardableImageCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D0F27D0132000A6EED2 /* DiscardableImageCacheItem.swift */; };
+		1E125D1227D013CC00A6EED2 /* ResturantDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D1127D013CA00A6EED2 /* ResturantDetailsVC.swift */; };
+		1E125D1627D015B400A6EED2 /* ResturantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D1527D015B400A6EED2 /* ResturantCell.swift */; };
+		1E125D2E27D0178F00A6EED2 /* DetailedStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E125D2D27D0178F00A6EED2 /* DetailedStackView.swift */; };
+		1E7B030127D0B31D009A5014 /* ButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7B030027D0B31D009A5014 /* ButtonRounded.swift */; };
+		1EED629227CD6418008899FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED629127CD6418008899FB /* AppDelegate.swift */; };
+		1EED629427CD6418008899FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED629327CD6418008899FB /* SceneDelegate.swift */; };
+		1EED629627CD6418008899FB /* ResturantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED629527CD6418008899FB /* ResturantsViewController.swift */; };
+		1EED629B27CD6420008899FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EED629A27CD6420008899FB /* Assets.xcassets */; };
+		1EED629E27CD6420008899FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EED629C27CD6420008899FB /* LaunchScreen.storyboard */; };
+		1EED62A927CD6420008899FB /* GahezDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED62A827CD6420008899FB /* GahezDemoTests.swift */; };
+		1EED62B327CD6421008899FB /* GahezDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED62B227CD6421008899FB /* GahezDemoUITests.swift */; };
+		1EED62B527CD6421008899FB /* GahezDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED62B427CD6421008899FB /* GahezDemoUITestsLaunchTests.swift */; };
+		1EED62C327CD6602008899FB /* ResturantsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED62C227CD6602008899FB /* ResturantsModel.swift */; };
+		1EED62C627CD676F008899FB /* ResturantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED62C527CD676E008899FB /* ResturantViewModel.swift */; };
+		1EED62C927CD6837008899FB /* ResturantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED62C827CD6837008899FB /* ResturantService.swift */; };
+		1EF1D7BF27D26502006EB236 /* MockResturantServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1D7BE27D26502006EB236 /* MockResturantServices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EED62A527CD6420008899FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EED628627CD6418008899FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EED628D27CD6418008899FB;
+			remoteInfo = GahezDemo;
+		};
+		1EED62AF27CD6421008899FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EED628627CD6418008899FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EED628D27CD6418008899FB;
+			remoteInfo = GahezDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E125D0227D0056000A6EED2 /* RoundedShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		1E125D0327D0056000A6EED2 /* CachedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
+		1E125D0727D0058100A6EED2 /* ExtenstionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtenstionUIView.swift; sourceTree = "<group>"; };
+		1E125D0827D0058200A6EED2 /* ExtensionUIViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIViewControllers.swift; sourceTree = "<group>"; };
+		1E125D0B27D0119D00A6EED2 /* TanibleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TanibleView.swift; sourceTree = "<group>"; };
+		1E125D0C27D0119E00A6EED2 /* TanibleViewDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TanibleViewDirection.swift; sourceTree = "<group>"; };
+		1E125D0F27D0132000A6EED2 /* DiscardableImageCacheItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscardableImageCacheItem.swift; sourceTree = "<group>"; };
+		1E125D1127D013CA00A6EED2 /* ResturantDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantDetailsVC.swift; sourceTree = "<group>"; };
+		1E125D1527D015B400A6EED2 /* ResturantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantCell.swift; sourceTree = "<group>"; };
+		1E125D2D27D0178F00A6EED2 /* DetailedStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedStackView.swift; sourceTree = "<group>"; };
+		1E7B030027D0B31D009A5014 /* ButtonRounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonRounded.swift; sourceTree = "<group>"; };
+		1EED628E27CD6418008899FB /* GahezDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GahezDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EED629127CD6418008899FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EED629327CD6418008899FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EED629527CD6418008899FB /* ResturantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantsViewController.swift; sourceTree = "<group>"; };
+		1EED629A27CD6420008899FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EED629D27CD6420008899FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EED629F27CD6420008899FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EED62A427CD6420008899FB /* GahezDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GahezDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EED62A827CD6420008899FB /* GahezDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GahezDemoTests.swift; sourceTree = "<group>"; };
+		1EED62AE27CD6421008899FB /* GahezDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GahezDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EED62B227CD6421008899FB /* GahezDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GahezDemoUITests.swift; sourceTree = "<group>"; };
+		1EED62B427CD6421008899FB /* GahezDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GahezDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EED62C227CD6602008899FB /* ResturantsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantsModel.swift; sourceTree = "<group>"; };
+		1EED62C527CD676E008899FB /* ResturantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantViewModel.swift; sourceTree = "<group>"; };
+		1EED62C827CD6837008899FB /* ResturantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantService.swift; sourceTree = "<group>"; };
+		1EF1D7BE27D26502006EB236 /* MockResturantServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockResturantServices.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EED628B27CD6418008899FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EED62A127CD6420008899FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EED62AB27CD6421008899FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E125D0127D0053900A6EED2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E125D1327D0157000A6EED2 /* Helper */,
+				1E125D0327D0056000A6EED2 /* CachedImageView.swift */,
+				1E7B030027D0B31D009A5014 /* ButtonRounded.swift */,
+				1E125D0B27D0119D00A6EED2 /* TanibleView.swift */,
+				1E125D0227D0056000A6EED2 /* RoundedShadowView.swift */,
+				1E125D2D27D0178F00A6EED2 /* DetailedStackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E125D0627D0056A00A6EED2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1E125D0827D0058200A6EED2 /* ExtensionUIViewControllers.swift */,
+				1E125D0727D0058100A6EED2 /* ExtenstionUIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1E125D1327D0157000A6EED2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1E125D0C27D0119E00A6EED2 /* TanibleViewDirection.swift */,
+				1E125D0F27D0132000A6EED2 /* DiscardableImageCacheItem.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1E125D1427D0158500A6EED2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1E125D1527D015B400A6EED2 /* ResturantCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1E7B02FF27D0B250009A5014 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1EED629527CD6418008899FB /* ResturantsViewController.swift */,
+				1E125D1127D013CA00A6EED2 /* ResturantDetailsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1EED628527CD6418008899FB = {
+			isa = PBXGroup;
+			children = (
+				1EED629027CD6418008899FB /* GahezDemo */,
+				1EED62A727CD6420008899FB /* GahezDemoTests */,
+				1EED62B127CD6421008899FB /* GahezDemoUITests */,
+				1EED628F27CD6418008899FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EED628F27CD6418008899FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EED628E27CD6418008899FB /* GahezDemo.app */,
+				1EED62A427CD6420008899FB /* GahezDemoTests.xctest */,
+				1EED62AE27CD6421008899FB /* GahezDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EED629027CD6418008899FB /* GahezDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1E7B02FF27D0B250009A5014 /* Controller */,
+				1E125D1427D0158500A6EED2 /* Cells */,
+				1E125D0627D0056A00A6EED2 /* Extensions */,
+				1E125D0127D0053900A6EED2 /* Views */,
+				1EED62C727CD6809008899FB /* Services */,
+				1EED62C427CD666D008899FB /* ViewModel */,
+				1EED62C127CD6462008899FB /* Model */,
+				1EED629127CD6418008899FB /* AppDelegate.swift */,
+				1EED629327CD6418008899FB /* SceneDelegate.swift */,
+				1EED629A27CD6420008899FB /* Assets.xcassets */,
+				1EED629C27CD6420008899FB /* LaunchScreen.storyboard */,
+				1EED629F27CD6420008899FB /* Info.plist */,
+			);
+			path = GahezDemo;
+			sourceTree = "<group>";
+		};
+		1EED62A727CD6420008899FB /* GahezDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EED62A827CD6420008899FB /* GahezDemoTests.swift */,
+				1EF1D7BE27D26502006EB236 /* MockResturantServices.swift */,
+			);
+			path = GahezDemoTests;
+			sourceTree = "<group>";
+		};
+		1EED62B127CD6421008899FB /* GahezDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EED62B227CD6421008899FB /* GahezDemoUITests.swift */,
+				1EED62B427CD6421008899FB /* GahezDemoUITestsLaunchTests.swift */,
+			);
+			path = GahezDemoUITests;
+			sourceTree = "<group>";
+		};
+		1EED62C127CD6462008899FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EED62C227CD6602008899FB /* ResturantsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EED62C427CD666D008899FB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1EED62C527CD676E008899FB /* ResturantViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1EED62C727CD6809008899FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1EED62C827CD6837008899FB /* ResturantService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EED628D27CD6418008899FB /* GahezDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EED62B827CD6421008899FB /* Build configuration list for PBXNativeTarget "GahezDemo" */;
+			buildPhases = (
+				1EED628A27CD6418008899FB /* Sources */,
+				1EED628B27CD6418008899FB /* Frameworks */,
+				1EED628C27CD6418008899FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GahezDemo;
+			productName = GahezDemo;
+			productReference = 1EED628E27CD6418008899FB /* GahezDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EED62A327CD6420008899FB /* GahezDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EED62BB27CD6421008899FB /* Build configuration list for PBXNativeTarget "GahezDemoTests" */;
+			buildPhases = (
+				1EED62A027CD6420008899FB /* Sources */,
+				1EED62A127CD6420008899FB /* Frameworks */,
+				1EED62A227CD6420008899FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EED62A627CD6420008899FB /* PBXTargetDependency */,
+			);
+			name = GahezDemoTests;
+			productName = GahezDemoTests;
+			productReference = 1EED62A427CD6420008899FB /* GahezDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EED62AD27CD6421008899FB /* GahezDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EED62BE27CD6421008899FB /* Build configuration list for PBXNativeTarget "GahezDemoUITests" */;
+			buildPhases = (
+				1EED62AA27CD6421008899FB /* Sources */,
+				1EED62AB27CD6421008899FB /* Frameworks */,
+				1EED62AC27CD6421008899FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EED62B027CD6421008899FB /* PBXTargetDependency */,
+			);
+			name = GahezDemoUITests;
+			productName = GahezDemoUITests;
+			productReference = 1EED62AE27CD6421008899FB /* GahezDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EED628627CD6418008899FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1EED628D27CD6418008899FB = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					1EED62A327CD6420008899FB = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 1EED628D27CD6418008899FB;
+					};
+					1EED62AD27CD6421008899FB = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 1EED628D27CD6418008899FB;
+					};
+				};
+			};
+			buildConfigurationList = 1EED628927CD6418008899FB /* Build configuration list for PBXProject "GahezDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EED628527CD6418008899FB;
+			productRefGroup = 1EED628F27CD6418008899FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EED628D27CD6418008899FB /* GahezDemo */,
+				1EED62A327CD6420008899FB /* GahezDemoTests */,
+				1EED62AD27CD6421008899FB /* GahezDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EED628C27CD6418008899FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EED629E27CD6420008899FB /* LaunchScreen.storyboard in Resources */,
+				1EED629B27CD6420008899FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EED62A227CD6420008899FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EED62AC27CD6421008899FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EED628A27CD6418008899FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7B030127D0B31D009A5014 /* ButtonRounded.swift in Sources */,
+				1E125D0E27D0119E00A6EED2 /* TanibleViewDirection.swift in Sources */,
+				1EED62C927CD6837008899FB /* ResturantService.swift in Sources */,
+				1EED62C327CD6602008899FB /* ResturantsModel.swift in Sources */,
+				1EED629627CD6418008899FB /* ResturantsViewController.swift in Sources */,
+				1E125D0D27D0119E00A6EED2 /* TanibleView.swift in Sources */,
+				1EED62C627CD676F008899FB /* ResturantViewModel.swift in Sources */,
+				1E125D0927D0058200A6EED2 /* ExtenstionUIView.swift in Sources */,
+				1EED629227CD6418008899FB /* AppDelegate.swift in Sources */,
+				1E125D0A27D0058200A6EED2 /* ExtensionUIViewControllers.swift in Sources */,
+				1EED629427CD6418008899FB /* SceneDelegate.swift in Sources */,
+				1E125D0527D0056100A6EED2 /* CachedImageView.swift in Sources */,
+				1E125D0427D0056100A6EED2 /* RoundedShadowView.swift in Sources */,
+				1E125D1227D013CC00A6EED2 /* ResturantDetailsVC.swift in Sources */,
+				1E125D1627D015B400A6EED2 /* ResturantCell.swift in Sources */,
+				1E125D1027D0132000A6EED2 /* DiscardableImageCacheItem.swift in Sources */,
+				1E125D2E27D0178F00A6EED2 /* DetailedStackView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EED62A027CD6420008899FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF1D7BF27D26502006EB236 /* MockResturantServices.swift in Sources */,
+				1EED62A927CD6420008899FB /* GahezDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EED62AA27CD6421008899FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EED62B327CD6421008899FB /* GahezDemoUITests.swift in Sources */,
+				1EED62B527CD6421008899FB /* GahezDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EED62A627CD6420008899FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EED628D27CD6418008899FB /* GahezDemo */;
+			targetProxy = 1EED62A527CD6420008899FB /* PBXContainerItemProxy */;
+		};
+		1EED62B027CD6421008899FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EED628D27CD6418008899FB /* GahezDemo */;
+			targetProxy = 1EED62AF27CD6421008899FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EED629C27CD6420008899FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EED629D27CD6420008899FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EED62B627CD6421008899FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EED62B727CD6421008899FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EED62B927CD6421008899FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L69643FJ3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GahezDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = task.Gahezcom.GahezDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EED62BA27CD6421008899FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L69643FJ3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GahezDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = task.Gahezcom.GahezDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EED62BC27CD6421008899FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L69643FJ3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = task.blackStoneTest.com.GahezDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GahezDemo.app/GahezDemo";
+			};
+			name = Debug;
+		};
+		1EED62BD27CD6421008899FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L69643FJ3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = task.blackStoneTest.com.GahezDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GahezDemo.app/GahezDemo";
+			};
+			name = Release;
+		};
+		1EED62BF27CD6421008899FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L69643FJ3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = task.blackStoneTest.com.GahezDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GahezDemo;
+			};
+			name = Debug;
+		};
+		1EED62C027CD6421008899FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L69643FJ3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = task.blackStoneTest.com.GahezDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GahezDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EED628927CD6418008899FB /* Build configuration list for PBXProject "GahezDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EED62B627CD6421008899FB /* Debug */,
+				1EED62B727CD6421008899FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EED62B827CD6421008899FB /* Build configuration list for PBXNativeTarget "GahezDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EED62B927CD6421008899FB /* Debug */,
+				1EED62BA27CD6421008899FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EED62BB27CD6421008899FB /* Build configuration list for PBXNativeTarget "GahezDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EED62BC27CD6421008899FB /* Debug */,
+				1EED62BD27CD6421008899FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EED62BE27CD6421008899FB /* Build configuration list for PBXNativeTarget "GahezDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EED62BF27CD6421008899FB /* Debug */,
+				1EED62C027CD6421008899FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EED628627CD6418008899FB /* Project object */;
+}
